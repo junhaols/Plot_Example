@@ -1,5 +1,6 @@
 ###################################################################################################
 ## 1.Histogram
+# For M*N subplot plot,e.g.,3*3
 import seaborn as sns
 import matplotlib.pyplot as plt
 
