@@ -11,8 +11,8 @@ Y_Emotion = ['LPT_FACE','LPT_SHAPE','LPT_F_S','RPT_FACE','RPT_SHAPE','RPT_F_S','
 
 fig, axes = plt.subplots(3,3,figsize=(20, 10))
 for k,y_str in enumerate(Y_Emotion):
-    Y = eval(y_str)
-    k1=k//3
+    Y = eval(y_str)  # convert string to variable
+    k1=k//3 
     k2=k%3
     fig.suptitle('Emotion',fontsize=25)
 
